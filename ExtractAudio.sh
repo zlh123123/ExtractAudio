@@ -1,17 +1,3 @@
-#!/bin/bash
-#将视频中的音频提取出来，并按照排列顺序合并为一段音频
-
-# set -e
-# cd "$(dirname "$0")"
-
-# input=
-# for i in "$@"; do
-#     input="$input -i $i"
-# done
-
-# ffmpeg $input -filter_complex amix=inputs=$#:duration=first:dropout_transition=3 -f mp3 -vn -y audio.mp3
-
-# set -e
 cd "$(dirname "$0")"
 
 
